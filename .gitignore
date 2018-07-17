@@ -165,3 +165,17 @@ __*__/
 
 *.ogg
 dist
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+.eslintcache
+
+app/node_modules
+
+# flow-typed
+flow-typed/npm/*
+!flow-typed/npm/module_vx.x.x.js
+
+
+dist
+
